@@ -1,10 +1,13 @@
-Flask
-Flask-SocketIO
+Flask-SocketIO==5.3.6
+Flask>=2.1.0
 Flask-CORS
 python-can
 python-socketio
-werkzeug
+Werkzeug==2.0.1
 pyautogui
 eventlet
 websocket-client
 adafruit-circuitpython-ads1x15
+numpy
+gpiod
+requests

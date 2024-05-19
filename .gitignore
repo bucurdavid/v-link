@@ -4,6 +4,9 @@ venv/
 backend/venv/
 dist/
 frontend/dist/
+bin/
+lib/
+include/
 
 .notes/
 .vite/
@@ -18,4 +21,6 @@ frontend/dist/
 *.py[cod]
 ._*
 create-package.sh
+pyvenv.cfg
+lib64
 
