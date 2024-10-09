@@ -64,16 +64,7 @@ if confirm_action "install Volvo V-Link"; then
         echo -e "Unable to create permissions\n"
     fi
 
-    # Step 5.2: Download the file
-    download_url="https://github.com/LRYMND/v-link/releases/download/v2.1.0/V-Link.zip"
-    output_path="/home/$USER/v-link"
-    echo "Downloading files to: $output_path"
-    mkdir -p $output_path
-    curl -L $download_url --output $output_path/V-Link.zip
-
-    # Step 5.3: Unzip the contents
-    echo "Unzipping the contents..."
-    unzip $output_path/V-Link.zip -d $output_path
+    output_path="/home/$USER/volvo/v-link"
 
     # Step 5.4: Setup virtual environment
     if confirm_action "setup virtual environment (Recommended)"; then
