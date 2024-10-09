@@ -22,7 +22,7 @@ class VLINK:
             "Browser":  BrowserThread(),
             "Server":   ServerThread(),
             "Canbus":   CanBusThread(),
-            #"Linbus":  LinBusThread(),
+            "Linbus":  LinBusThread(),
             "ADC":      ADCThread(),
         }
 
