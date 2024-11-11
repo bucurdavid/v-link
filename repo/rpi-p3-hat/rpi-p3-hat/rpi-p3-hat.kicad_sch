@@ -1,0 +1,129 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "08309753-5c8b-446e-aebc-028309716306")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 86.36 30.48)
+		(size 23.495 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6a5196b2-24c7-4fd3-84d9-e31a4f5b5983")
+		(property "Sheetname" "buck_12v_5v"
+			(at 86.36 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buck_12v_5v.kicad_sch"
+			(at 86.36 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VIN+" input
+			(at 86.36 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "56012ca4-354f-41dd-b9a4-2dcdef26841e")
+		)
+		(pin "VIN-" input
+			(at 86.36 41.275 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e5b89ccc-063a-4295-9a86-fb2585a98309")
+		)
+		(instances
+			(project "rpi-p3-hat"
+				(path "/08309753-5c8b-446e-aebc-028309716306"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 31.75)
+		(size 17.145 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6c67551b-71d3-4da1-9d15-8d66ace4a778")
+		(property "Sheetname" "psu"
+			(at 58.42 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "psu.kicad_sch"
+			(at 58.42 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VIN+" input
+			(at 75.565 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c8da4165-97c5-4af5-ac77-0d940a871889")
+		)
+		(pin "VIN-" input
+			(at 75.565 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "74872551-1a45-4723-bd55-173e8bd9a996")
+		)
+		(instances
+			(project "rpi-p3-hat"
+				(path "/08309753-5c8b-446e-aebc-028309716306"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
